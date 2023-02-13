@@ -19,7 +19,7 @@ body {
   border-radius: 10px;
 }
 
-/* Header Styling */
+/* Header */
 
 .profile {
   border-collapse: separate;
@@ -28,7 +28,7 @@ body {
   height: 300px;
 }
 
-/* Main content styling */
+/* Main Content */
 .name {
   text-align: center;
 }
@@ -67,4 +67,19 @@ button {
 .linkedin {
   background-color: #5093e2;
   color: #f5f5f5;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #161619;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin: 10px;
 }

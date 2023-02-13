@@ -6,9 +6,9 @@ import instagram from "../images/instagram.png"
 export default function Footer() {
     return (
         <div className="footer">
-            <img src={twitter}></img>
-            <img src={github}></img>
-            <img src={instagram}></img>
+            <img src={twitter} className="icon"></img>
+            <img src={github} className="icon"></img>
+            <img src={instagram} className="icon"></img>
         </div>
     )
 }
