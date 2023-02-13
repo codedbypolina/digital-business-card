@@ -1,6 +1,6 @@
 export default function Main() {
     return (
-        <div>
+        <div className="main">
             <h1>Polina Shliakhina</h1>
             <h2>Frontend Developer</h2>
             <h3>codedbypolina.com</h3>

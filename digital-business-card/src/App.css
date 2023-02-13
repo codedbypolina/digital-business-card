@@ -2,4 +2,28 @@ body {
   background-color: #23252c;
   font-family: "Inter", sans-serif;
   margin: 0;
+  color: #f5f5f5;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  background-color: #1a1b21;
+  width: fit-content;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+/* Header Styling */
+
+.profile {
+  border-collapse: separate;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 300px;
 }
