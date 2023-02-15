@@ -8,10 +8,12 @@ export default function Main() {
             </div>
 
             <div className="buttons">
-                <button>
-                    Email
-                </button>
-                <button className="linkedin">LinkedIn</button>
+                <a href="mailto:createdbypolina.com">
+                    <button>
+                        Email
+                    </button></a>
+                <a href="https://www.linkedin.com/in/polinashliakhina/" target="_blank"><button className="linkedin">LinkedIn</button></a>
+
             </div>
 
             <div className="description">
