@@ -14,7 +14,7 @@ body {
 .card {
   position: relative;
   background-color: #1a1b21;
-  width: fit-content;
+  width: min-content;
   margin: 5%;
   border-radius: 10px;
 }
@@ -25,7 +25,7 @@ body {
   border-collapse: separate;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 300px;
+  height: 350px;
 }
 
 /* Main Content */
@@ -56,9 +56,9 @@ button {
   text-decoration: none;
   text-align: center;
   border: none;
-  width: 100px;
-  height: 30px;
-  margin: 5px;
+  width: 135px;
+  height: 35px;
+  margin: 7px;
   font-size: 14px;
   border-radius: 5px;
   font-weight: 400;
@@ -67,6 +67,19 @@ button {
 .linkedin {
   background-color: #5093e2;
   color: #f5f5f5;
+}
+
+/* Main Content */
+.description {
+  margin: 0% 5% 10% 10%;
+}
+
+.description > p {
+  font: 11px;
+}
+
+.description > h4 {
+  font: 16px;
 }
 
 /* Footer */

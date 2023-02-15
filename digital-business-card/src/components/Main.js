@@ -14,11 +14,15 @@ export default function Main() {
                 <button className="linkedin">LinkedIn</button>
             </div>
 
+            <div className="description">
+                <h4>About</h4>
+                <p>I am a frontend developer with an interest in UX/UI design. Passionate about problem-solving and never-ending learning, I am excited to dive into the world of web development and continue refining my skills with the right company.</p>
+                <h4>Interests</h4>
+                <p>Language addict. Graphic & Web Design lover. Non-fiction reader. Outdoor enthusiast. BoJack Horseman & Simpsons fan. Proud cat mom. </p>
+            </div>
 
-            <h4>About</h4>
-            <p></p>
-            <h4>Interests</h4>
-            <p></p>
+
+
         </div>
     )
 }
